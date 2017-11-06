@@ -97,6 +97,7 @@
 		C82930001FB0009D0012C2E1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LX;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "IDEAL YANG";
 				TargetAttributes = {
