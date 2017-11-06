@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+extern const CGFloat kLXQualityDispalyViewWidth;
+extern const CGFloat kLXQualityDispalyViewHeight;
+
 @interface LXQualityDispalyView : UIView
 
 @property (nonatomic, strong) UIColor *displayColor;

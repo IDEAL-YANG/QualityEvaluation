@@ -10,6 +10,9 @@
 
 const CGFloat kLXQualityDispalyViewCellLength = 15.0;
 
+const CGFloat kLXQualityDispalyViewWidth = 25.0;
+const CGFloat kLXQualityDispalyViewHeight = 216.0;
+
 @interface LXQualityDispalyView ()
 
 @property (nonatomic, strong) UILabel *displayNameLabel;
@@ -25,7 +28,7 @@ const CGFloat kLXQualityDispalyViewCellLength = 15.0;
 - (instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
         
-        self.layer.cornerRadius = 25 * 0.5;
+        self.layer.cornerRadius = CGRectGetWidth(frame) * 0.5;
         self.layer.masksToBounds = true;
         self.layer.borderWidth = 1.0/[UIScreen mainScreen].scale;
         self.layer.borderColor = [[UIColor colorWithRed:225/255.0 green:225/255.0 blue:225/255.0 alpha:1/1.0] CGColor];
@@ -57,7 +60,7 @@ const CGFloat kLXQualityDispalyViewCellLength = 15.0;
 #pragma mark - Setters
 
 - (void)setFrame:(CGRect)frame{
-    super.frame = CGRectMake(CGRectGetMinX(frame), CGRectGetMinY(frame), 25, 216);
+    super.frame = CGRectMake(CGRectGetMinX(frame), CGRectGetMinY(frame), kLXQualityDispalyViewWidth, kLXQualityDispalyViewHeight);
 }
 
 - (void)setDisplayName:(NSString *)displayName{
