@@ -13,6 +13,7 @@
 		C82930151FB0009D0012C2E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82930141FB0009D0012C2E1 /* Assets.xcassets */; };
 		C82930181FB0009D0012C2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82930161FB0009D0012C2E1 /* LaunchScreen.storyboard */; };
 		C829301B1FB0009D0012C2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C829301A1FB0009D0012C2E1 /* main.m */; };
+		C82930231FB0043D0012C2E1 /* LXQualityDispalyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C82930221FB0043D0012C2E1 /* LXQualityDispalyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C82930171FB0009D0012C2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C82930191FB0009D0012C2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C829301A1FB0009D0012C2E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C82930211FB0043D0012C2E1 /* LXQualityDispalyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXQualityDispalyView.h; sourceTree = "<group>"; };
+		C82930221FB0043D0012C2E1 /* LXQualityDispalyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQualityDispalyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				C829300C1FB0009D0012C2E1 /* AppDelegate.m */,
 				C829300E1FB0009D0012C2E1 /* ViewController.h */,
 				C829300F1FB0009D0012C2E1 /* ViewController.m */,
+				C82930211FB0043D0012C2E1 /* LXQualityDispalyView.h */,
+				C82930221FB0043D0012C2E1 /* LXQualityDispalyView.m */,
 				C82930111FB0009D0012C2E1 /* Main.storyboard */,
 				C82930141FB0009D0012C2E1 /* Assets.xcassets */,
 				C82930161FB0009D0012C2E1 /* LaunchScreen.storyboard */,
@@ -146,6 +151,7 @@
 				C82930101FB0009D0012C2E1 /* ViewController.m in Sources */,
 				C829301B1FB0009D0012C2E1 /* main.m in Sources */,
 				C829300D1FB0009D0012C2E1 /* AppDelegate.m in Sources */,
+				C82930231FB0043D0012C2E1 /* LXQualityDispalyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4262G7AU8L;
 				INFOPLIST_FILE = QualityEvaluation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuchaoshi.QualityEvaluation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4262G7AU8L;
 				INFOPLIST_FILE = QualityEvaluation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuchaoshi.QualityEvaluation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
